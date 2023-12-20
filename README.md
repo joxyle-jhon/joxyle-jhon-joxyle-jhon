@@ -1,8 +1,8 @@
 <!-- my-badges start -->
 name: my-badges
-.github/workflows/my-badges.yml
+
 on:
-  workflow_dispatch: 
+  workflow_dispatch: .github/workflows/my-badges.yml
   schedule:
     - cron: '0 0 * * *'
 
